@@ -1,0 +1,242 @@
+{
+  "user": {
+    "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--Mghy6yiQ--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/454245/99d3e0e4-b3f4-48b7-ba36-92a2132d1ea1.jpeg",
+    "name": "John Doe",
+    "id": "@johndoe"
+  },
+  "menu": {
+    "items": [
+      {
+        "label": "Reading List",
+        "icon": "url('https://img.icons8.com/color/2x/collectibles.png')"
+      },
+      {
+        "label": "Listings",
+        "icon": "url('https://img.icons8.com/color/2x/newspaper-.png')"
+      },
+      {
+        "label": "Podcasts",
+        "icon": "url('https://img.icons8.com/color/2x/microphone.png')"
+      },
+      {
+        "label": "Videos",
+        "icon": "url('https://img.icons8.com/color/2x/camcorder-pro.png')"
+      },
+      {
+        "label": "Tags",
+        "icon": "url('https://img.icons8.com/color/2x/price-tag.png')"
+      }
+    ],
+    "myTags": [
+      "#javascript",
+      "#webdev",
+      "#react",
+      "#productivity",
+      "#career",
+      "#css",
+      "#opensource",
+      "#typescript",
+      "#vue",
+      "#git",
+      "#angular",
+      "#ux"
+    ],
+    "otherPopularTags": [
+      "#beginners",
+      "#tutorial",
+      "#python",
+      "#discuss",
+      "#codenewbie",
+      "#android",
+      "#node",
+      "#devops",
+      "#showdev",
+      "#html",
+      "#github",
+      "#aws",
+      "#testing",
+      "#java",
+      "#security",
+      "#machinelearning",
+      "#docker",
+      "#linux",
+      "#ruby"
+    ]
+  },
+  "postsTabs": [
+    "Feed",
+    "Week",
+    "Month",
+    "Year",
+    "Infinity",
+    "Latest"
+  ],
+  "posts": [
+    {
+      "author": {
+        "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--GhOrtS1V--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/201592/c1bb2dfc-ff38-4232-8a4c-b63c1c6094ea.png",
+        "name": "Vuelancer"
+      },
+      "date": "Sep 22 (4 days ago)",
+      "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--2qtvnCRb--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/kti3j4wu4cnrvyjfplcl.jpg",
+      "title": "Vuex in Vue 3",
+      "tags": [
+        "#vue",
+        "#javascript",
+        "#webdev",
+        "#beginners"
+      ],
+      "reactions": 3,
+      "comments": 0
+    },
+    {
+      "author": {
+        "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--oOuSIsKh--/c_fill,f_auto,fl_progressive,h_50,q_auto,w_50/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/252808/e66a45b7-c420-487f-a571-4665d3068605.jpeg",
+        "name": "Burhanuddin Udaipurwala"
+      },
+      "date": "Sep 26 (1 hour ago)",
+      "title": "Hinglish to Hindi Typing - React Transliterate Component",
+      "tags": [
+        "#showdev",
+        "#react",
+        "#webdev"
+      ],
+      "reactions": 3,
+      "comments": 0
+    },
+    {
+      "author": {
+        "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--bkACFr2Z--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/473514/578d1056-b1c0-456b-abd0-eee3f065db1c.png",
+        "name": "derva"
+      },
+      "date": "Sep 26 (1 hour ago)",
+      "title": "7 YouTubers that you should follow",
+      "tags": [
+        "#beginners",
+        "#webdev",
+        "#javascript",
+        "#startup"
+      ],
+      "reactions": 3,
+      "comments": 0
+    },
+    {
+      "author": {
+        "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--VD942ZNH--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/475623/dd4e1a44-e34c-4255-8d10-a870b3f7fc5a.jpg",
+        "name": "TheMarci"
+      },
+      "date": "Sep 26 (2 hours ago)",
+      "title": "The body just half sized",
+      "tags": [
+        "#html",
+        "#css",
+        "#help",
+        "#webdev"
+      ],
+      "reactions": 1,
+      "comments": 2
+    }
+  ],
+  "lists": [
+    {
+      "title": "Listings",
+      "items": [
+        {
+          "title": "🔥 Premium Bootstrap Themes for 30% off! 🔥",
+          "tag": "forsale"
+        },
+        {
+          "title": "🆕 🐝 Become a freelance web developer with Freelance Newbie 🆕 🐝",
+          "tag": "education"
+        },
+        {
+          "title": "📣 Tefter.io - Teams - Call for Beta Testers",
+          "tag": "products"
+        },
+        {
+          "title": "[Oct. 2nd] 10 Days Of Code by The GNU/Linux Users' Group, National Institute of Technology Durgapur 💻",
+          "tag": "events"
+        },
+        {
+          "title": "Discord Server for DEVELOPER's Community 🔥",
+          "tag": "collabs"
+        }
+      ]
+    },
+    {
+      "title": "#news",
+      "items": [
+        {
+          "title": "Top 10 Developer Trends, Fri Sep 25 2020",
+          "comments": 0
+        },
+        {
+          "title": "Mobile App Development Process: From Idea to App Maintenance",
+          "comments": 0
+        },
+        {
+          "title": "Game Dev Digest — Issue #63 - Fall Guys, ScriptableObects, and Stylized Effects",
+          "comments": 0
+        },
+        {
+          "title": "How to Close Feedback Loop to Improve Customer Satisfaction?",
+          "comments": 0
+        },
+        {
+          "title": "🥇 ▷ Amazon rediseña la línea Echo con altavoces esféricos y pantallas giratorias",
+          "comments": 0
+        }
+      ]
+    },
+    {
+      "title": "#help",
+      "items": [
+        {
+          "title": "How to start with Hacktoberfest?",
+          "comments": 0
+        },
+        {
+          "title": "The body just half sized",
+          "comments": 2
+        },
+        {
+          "title": "idk what to do",
+          "comments": 0
+        },
+        {
+          "title": "Linux (or Windows) on MacBook keyboard layout - how do you configure?",
+          "comments": 1
+        },
+        {
+          "title": "ClojureScript koan kata destructuring 7",
+          "comments": 0
+        }
+      ]
+    },
+    {
+      "title": "#discuss",
+      "items": [
+        {
+          "title": "What domain extension do you use for portfolio?",
+          "comments": 23
+        },
+        {
+          "title": "What's the best VPN service?",
+          "comments": 5
+        },
+        {
+          "title": "What localhost tunnels have you used?",
+          "comments": 6
+        },
+        {
+          "title": "What is the most beautiful Linux distro?",
+          "comments": 52
+        },
+        {
+          "title": "What activities outside of coding do you spend the most time on?",
+          "comments": 17
+        }
+      ]
+    }
+  ]
+}

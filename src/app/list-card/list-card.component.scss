@@ -1,0 +1,19 @@
+kor-card {
+  background: rgba(var(--base-2), 1);
+  kor-table-cell {
+    &:hover {
+      --text-1: rgb(var(--accent-1));
+    }
+    > * + * {
+      margin-top: 8px;
+    }
+    kor-text {
+      white-space: initial;
+    }
+    kor-tag {
+      background: rgba(var(--accent-1), 1);
+      --text-1: white;
+      padding: unset;
+    }
+  }
+}

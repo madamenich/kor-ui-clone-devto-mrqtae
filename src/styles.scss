@@ -1,0 +1,41 @@
+/* import kor styles */
+@import url('node_modules/@kor-ui/kor/kor-styles.css');
+
+/* theme */
+*[theme="dark"] {
+  --accent-1: 123, 120, 255;
+  --accent-1b: 133, 130, 255;
+  --accent-1c: 113, 110, 245;
+  --base-0: 26, 38, 52;
+  --base-1: 13, 19, 26;
+  --base-2: 20, 29, 39;
+  --base-3: 26, 38, 52;
+  --base-4: 45, 45, 45;
+  --body-1: normal 16px/24px sans-serif;
+  --body-2: normal 14px/16px sans-serif;
+  --header-1: bold 18px/24px sans-serif;
+  --header-2: bold 16px/24px sans-serif;
+  font-family: sans-serif;
+}
+
+/* standard component style changes */
+kor-button[color="primary"] {
+  color: var(--neutral-2);
+}
+kor-tabs {
+  border: unset;
+  kor-tab-item {
+    height: 40px;
+    padding: 0 12px;
+    min-width: unset;
+  }
+}
+kor-menu-item:hover {
+  --text-1: rgb(var(--accent-1));
+}
+kor-tag {
+  border: unset;
+  &:not(:hover) {
+    --text-1: var(--text-2);
+  }
+}

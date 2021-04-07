@@ -1,0 +1,19 @@
+<kor-card [ngClass]="highlight ? 'highlight' : ''">
+  <img *ngIf="highlight" src="https://res.cloudinary.com/practicaldev/image/fetch/s--2qtvnCRb--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/kti3j4wu4cnrvyjfplcl.jpg" height="240px"/>
+  <kor-avatar
+    [image]="post?.author?.image"
+    [label]="post?.author?.name"
+    [info]="post?.date">
+  </kor-avatar>
+  <div class="content">
+    <kor-text size="header-1" [ngClass]="highlight ? 'highlight' : ''">{{post.title}}</kor-text>
+    <div class="flex">
+      <kor-tag button *ngFor="let tag of post?.tags" [label]="tag"></kor-tag>
+    </div>
+    <div class="flex">
+      <kor-tag button label="{{post?.reactions}} reactions" icon="favorite"></kor-tag>
+      <kor-tag button label="{{post?.comments}} comments" icon="message"></kor-tag>
+      <kor-button color="secondary" label="Save"></kor-button>
+    </div>
+  </div>
+</kor-card>

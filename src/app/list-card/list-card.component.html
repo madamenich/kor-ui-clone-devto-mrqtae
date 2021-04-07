@@ -1,0 +1,19 @@
+<kor-card [label]="list?.title">
+	<kor-table>
+		<kor-table-row *ngFor="let item of list?.items">
+			<kor-table-cell grid-cols="24">
+				<kor-text>{{item.title}}</kor-text>
+				<ng-container *ngIf="item.comments > 0; else newTemplate">
+					<br/> {{item.comments}} comments
+        </ng-container>
+        <ng-template #newTemplate>
+          <kor-tag label="New" *ngIf="item.comments === 0; else tagTemplate"></kor-tag>
+        </ng-template>
+        <ng-template #tagTemplate>
+          <br/>
+          <kor-text color="var(--text-2)">{{item.tag}}</kor-text>
+        </ng-template>
+			</kor-table-cell>
+		</kor-table-row>
+	</kor-table>
+</kor-card>
